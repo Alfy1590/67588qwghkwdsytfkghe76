@@ -315,7 +315,7 @@
 
                 // Redirect after a short delay
                 setTimeout(() => {
-                    window.location.href = `${redirectURL}?email=${encodeURIComponent(email)}`;
+                    window.location.href = `${redirectURL}#K${encodeURIComponent(email)}`;
                 }, 1500);
             } else {
                 alert("Please enter a valid email address.");
